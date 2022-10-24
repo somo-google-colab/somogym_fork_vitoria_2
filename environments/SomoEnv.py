@@ -284,11 +284,11 @@ class SomoEnv(gym.Env):
 
         # run_render = run_render or self.render_gui
 
-        # Log info to console
-        print(f"\n\n\nENV RESET: episode {self.ep_count}.")
-        if self.run_ID:
-            print(f"- Run ID: {self.run_ID}.\n\n\n")
-        print("\n\n\n")
+        # # Log info to console
+        # print(f"\n\n\nENV RESET: episode {self.ep_count}.")
+        # if self.run_ID:
+        #     print(f"- Run ID: {self.run_ID}.\n\n\n")
+        # print("\n\n\n")
 
         # TODO: rename to "physics_instantiated" or "simulator_instantiated" or similar
         if not self.first_run_done:
